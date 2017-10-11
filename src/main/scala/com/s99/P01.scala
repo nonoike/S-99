@@ -1,7 +1,5 @@
 package com.s99
 
-import java.util.NoSuchElementException
-
 object P01 {
   def last[A](list: List[A]): A = list match {
     case x :: Nil => x
